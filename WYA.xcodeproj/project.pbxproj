@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		494A3818CD97A7422630F114 /* WYAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31921139DC68CC70262FBB12 /* WYAApp.swift */; };
+		2989FE921566665C317CFD02 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46C8DC87CB7F0D4F493AE0 /* AppModel.swift */; };
+		BF15A6CD7C029A1EECB8641F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68CC9225E842C97860A6C07 /* Theme.swift */; };
+		D99DA98F8879E5D7E6A345B4 /* ArrivalCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363AA87103BE550A31BF9844 /* ArrivalCache.swift */; };
+		23BB31CF185ECF1734898273 /* LLMClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1299A6BBAC3902802C5066 /* LLMClient.swift */; };
+		9ADF0797B71C5A228F6BB508 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0F10414F6331BAA12EA508 /* LocationService.swift */; };
+		E81EA3D6044371A290898080 /* PlaceGeocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47351535A18B7E328CB7870 /* PlaceGeocoder.swift */; };
+		F784B770C7ADD3CF2870584E /* RealtimeArrivalsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5BC0329265BB17B9BC3282 /* RealtimeArrivalsService.swift */; };
+		5A05BBE90588976DC489E65D /* SecretsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34116A7687BEE5F7B266EEB2 /* SecretsStore.swift */; };
+		25FA8FFE5EB4E5526425E6DA /* WalkingRefiner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77203A56CEA0284687832E /* WalkingRefiner.swift */; };
+		9A3BF2BBBECBD189DEACB733 /* NearbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C29AF58BACFAD886D5EF61 /* NearbyView.swift */; };
+		2168A35A9D85B0808B9CFEAB /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E37739FE9F7058119F8E1D /* PlanView.swift */; };
+		EBF2A690332C35511345571B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DA581C3C9EC938ED80223A /* RootView.swift */; };
+		9D5B95B56E5B7B58BA2857D8 /* RouteBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D279770794056BF194F2FE57 /* RouteBadge.swift */; };
+		4A0CB57090652ADC0007228D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBCE43CD7714C73ECCBAB20E /* Assets.xcassets */; };
+		F0852CFB7B910F0E0BEE4DFB /* transit-index.json in Resources */ = {isa = PBXBuildFile; fileRef = 435D1148F3A465B974A12EFF /* transit-index.json */; };
+		8B2375F56FC423013471984C /* UnionSquare.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1F79088BBFBA95D61A5DD981 /* UnionSquare.gpx */; };
+		4B48F282847E7A67B913E7A6 /* WYACoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AADC15C4280477E8B6339C1 /* WYACoreTests.swift */; };
+		06D2A39B2F2359F5D93B2719 /* WYACore in Frameworks */ = {isa = PBXBuildFile; productRef = 8A0F178CF72F3A306E241074 /* WYACore */; };
+		F0E5272E01C21399E0E498C7 /* WYACore in Frameworks */ = {isa = PBXBuildFile; productRef = 4EE82BAEF243B77D1DFC5B5D /* WYACore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBF3CBF1198E652AEDB73964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0B4452F11481FB0681B5F28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 281EBA8E5931FBD96161DAE5;
+			remoteInfo = WYA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31921139DC68CC70262FBB12 /* WYAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYAApp.swift; sourceTree = "<group>"; };
+		FA46C8DC87CB7F0D4F493AE0 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		D68CC9225E842C97860A6C07 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		363AA87103BE550A31BF9844 /* ArrivalCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrivalCache.swift; sourceTree = "<group>"; };
+		3A1299A6BBAC3902802C5066 /* LLMClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMClient.swift; sourceTree = "<group>"; };
+		DB0F10414F6331BAA12EA508 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		F47351535A18B7E328CB7870 /* PlaceGeocoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceGeocoder.swift; sourceTree = "<group>"; };
+		1F5BC0329265BB17B9BC3282 /* RealtimeArrivalsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeArrivalsService.swift; sourceTree = "<group>"; };
+		34116A7687BEE5F7B266EEB2 /* SecretsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretsStore.swift; sourceTree = "<group>"; };
+		CC77203A56CEA0284687832E /* WalkingRefiner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkingRefiner.swift; sourceTree = "<group>"; };
+		B8C29AF58BACFAD886D5EF61 /* NearbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyView.swift; sourceTree = "<group>"; };
+		60E37739FE9F7058119F8E1D /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
+		75DA581C3C9EC938ED80223A /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		D279770794056BF194F2FE57 /* RouteBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteBadge.swift; sourceTree = "<group>"; };
+		5AADC15C4280477E8B6339C1 /* WYACoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYACore/Tests/WYACoreTests/WYACoreTests.swift; sourceTree = "<group>"; };
+		AFE20FFF8C901355BF3E589A /* copy-secrets.sh */ = {isa = PBXFileReference; lastKnownFileType = text; path = Scripts/copy-secrets.sh; sourceTree = "<group>"; };
+		F93AA479C58C4DC60207CFAA /* Secrets.example.plist */ = {isa = PBXFileReference; lastKnownFileType = text; path = Secrets.example.plist; sourceTree = "<group>"; };
+		EBCE43CD7714C73ECCBAB20E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		435D1148F3A465B974A12EFF /* transit-index.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = transit-index.json; sourceTree = "<group>"; };
+		1F79088BBFBA95D61A5DD981 /* UnionSquare.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = UnionSquare.gpx; sourceTree = "<group>"; };
+		8141D3665C18081EECD4444B /* WYA.app */ = {isa = PBXFileReference; explicitFileType = "wrapper.application"; includeInIndex = 0; path = WYA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E32074894ADEBA73422B4F3 /* WYATests.xctest */ = {isa = PBXFileReference; explicitFileType = "wrapper.cfbundle"; includeInIndex = 0; path = WYATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		504A5F11A43B0CDA207A9BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D2A39B2F2359F5D93B2719,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56121C317955783123D60C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E5272E01C21399E0E498C7,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA3E55021DAB709E0508102D = {
+			isa = PBXGroup;
+			children = (
+				31921139DC68CC70262FBB12,
+				FA46C8DC87CB7F0D4F493AE0,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D1BEFBFF35C7020825802DFB = {
+			isa = PBXGroup;
+			children = (
+				D68CC9225E842C97860A6C07,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		BE5F658DC222EA88539AB8F7 = {
+			isa = PBXGroup;
+			children = (
+				363AA87103BE550A31BF9844,
+				3A1299A6BBAC3902802C5066,
+				DB0F10414F6331BAA12EA508,
+				F47351535A18B7E328CB7870,
+				1F5BC0329265BB17B9BC3282,
+				34116A7687BEE5F7B266EEB2,
+				CC77203A56CEA0284687832E,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AC79818FA51E85BC68C0EFF2 = {
+			isa = PBXGroup;
+			children = (
+				B8C29AF58BACFAD886D5EF61,
+				60E37739FE9F7058119F8E1D,
+				75DA581C3C9EC938ED80223A,
+				D279770794056BF194F2FE57,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8A0AD3E381CDE8ACE538A97C = {
+			isa = PBXGroup;
+			children = (
+				EBCE43CD7714C73ECCBAB20E,
+				435D1148F3A465B974A12EFF,
+				1F79088BBFBA95D61A5DD981,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A46DC01024C0C489956A152F = {
+			isa = PBXGroup;
+			children = (
+				EA3E55021DAB709E0508102D,
+				D1BEFBFF35C7020825802DFB,
+				BE5F658DC222EA88539AB8F7,
+				AC79818FA51E85BC68C0EFF2,
+				8A0AD3E381CDE8ACE538A97C,
+			);
+			path = WYA;
+			sourceTree = "<group>";
+		};
+		EECDF4F0D2299EA998883D1B = {
+			isa = PBXGroup;
+			children = (
+				5AADC15C4280477E8B6339C1,
+			);
+			name = WYATests;
+			sourceTree = "<group>";
+		};
+		7257ED526FE6C40A34660F54 = {
+			isa = PBXGroup;
+			children = (
+				AFE20FFF8C901355BF3E589A,
+				F93AA479C58C4DC60207CFAA,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		2B2E182A5DA6E5AA4AF175ED = {
+			isa = PBXGroup;
+			children = (
+				8141D3665C18081EECD4444B,
+				6E32074894ADEBA73422B4F3,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E4A27D7F5F70B45525EB086 = {
+			isa = PBXGroup;
+			children = (
+				A46DC01024C0C489956A152F,
+				EECDF4F0D2299EA998883D1B,
+				7257ED526FE6C40A34660F54,
+				2B2E182A5DA6E5AA4AF175ED,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		281EBA8E5931FBD96161DAE5 /* WYA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D9347BFB137EEB4A126543 /* Build configuration list for PBXNativeTarget "WYA" */;
+			buildPhases = (
+				0BDCE74EE54775A8C19BF168 /* Sources */,
+				504A5F11A43B0CDA207A9BED /* Frameworks */,
+				DC66BE2F171CE11E1BC73B67 /* Resources */,
+				F0B82F9EF0E3DF441445128B /* Copy Secrets */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYA;
+			packageProductDependencies = (
+				8A0F178CF72F3A306E241074 /* WYACore */,
+			);
+			productName = WYA;
+			productReference = 8141D3665C18081EECD4444B /* WYA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79B1D11B02FB620F99E22DB0 /* WYATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6716108AE57F9DEA740787F0 /* Build configuration list for PBXNativeTarget "WYATests" */;
+			buildPhases = (
+				9168B68594732A14CE12ACCB /* Sources */,
+				56121C317955783123D60C33 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9622450506E6C0D6D1502C7F /* PBXTargetDependency */,
+			);
+			name = WYATests;
+			packageProductDependencies = (
+				4EE82BAEF243B77D1DFC5B5D /* WYACore */,
+			);
+			productName = WYATests;
+			productReference = 6E32074894ADEBA73422B4F3 /* WYATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0B4452F11481FB0681B5F28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 69E48A246CA9BBBE3DFB76E9 /* Build configuration list for PBXProject "WYA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E4A27D7F5F70B45525EB086;
+			packageReferences = (
+				3C062219FA6A08A177F77B4D /* XCLocalSwiftPackageReference "WYACore" */,
+			);
+			productRefGroup = 2B2E182A5DA6E5AA4AF175ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				281EBA8E5931FBD96161DAE5 /* WYA */,
+				79B1D11B02FB620F99E22DB0 /* WYATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC66BE2F171CE11E1BC73B67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0CB57090652ADC0007228D,
+				F0852CFB7B910F0E0BEE4DFB,
+				8B2375F56FC423013471984C,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F0B82F9EF0E3DF441445128B /* Copy Secrets */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/bash \"${SRCROOT}/Scripts/copy-secrets.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BDCE74EE54775A8C19BF168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494A3818CD97A7422630F114,
+				2989FE921566665C317CFD02,
+				BF15A6CD7C029A1EECB8641F,
+				D99DA98F8879E5D7E6A345B4,
+				23BB31CF185ECF1734898273,
+				9ADF0797B71C5A228F6BB508,
+				E81EA3D6044371A290898080,
+				F784B770C7ADD3CF2870584E,
+				5A05BBE90588976DC489E65D,
+				25FA8FFE5EB4E5526425E6DA,
+				9A3BF2BBBECBD189DEACB733,
+				2168A35A9D85B0808B9CFEAB,
+				EBF2A690332C35511345571B,
+				9D5B95B56E5B7B58BA2857D8,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9168B68594732A14CE12ACCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B48F282847E7A67B913E7A6,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9622450506E6C0D6D1502C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 281EBA8E5931FBD96161DAE5 /* WYA */;
+			targetProxy = EBF3CBF1198E652AEDB73964 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D3830659839688420B71D16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = -Onone;
+			};
+			name = Debug;
+		};
+		84390E1FDB1CDB3ABFF1F94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf-with-dsym;
+				ENABLE_NS_ASSERTIONS = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = -O;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB6CD3BCDA1BDAE2FB7530B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WYA;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "WYA uses your location while the app is open to find nearby subway and bus stops and to estimate the walk.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.brandonortiz.wya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1,2;
+			};
+			name = Debug;
+		};
+		0205DF7C7160B7A12DDA9EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WYA;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "WYA uses your location while the app is open to find nearby subway and bus stops and to estimate the walk.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.brandonortiz.wya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1,2;
+			};
+			name = Release;
+		};
+		0A93FCA7D17C677D71B9A63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.brandonortiz.wya.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1,2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYA.app/WYA";
+			};
+			name = Debug;
+		};
+		F41D242A0D1CCF52E89DE5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.brandonortiz.wya.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1,2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYA.app/WYA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69E48A246CA9BBBE3DFB76E9 /* Build configuration list for PBXProject "WYA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3830659839688420B71D16A /* Debug */,
+				84390E1FDB1CDB3ABFF1F94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D9347BFB137EEB4A126543 /* Build configuration list for PBXNativeTarget "WYA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6CD3BCDA1BDAE2FB7530B9 /* Debug */,
+				0205DF7C7160B7A12DDA9EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6716108AE57F9DEA740787F0 /* Build configuration list for PBXNativeTarget "WYATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A93FCA7D17C677D71B9A63C /* Debug */,
+				F41D242A0D1CCF52E89DE5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		3C062219FA6A08A177F77B4D /* XCLocalSwiftPackageReference "WYACore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = WYACore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8A0F178CF72F3A306E241074 /* WYACore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C062219FA6A08A177F77B4D /* XCLocalSwiftPackageReference "WYACore" */;
+			productName = WYACore;
+		};
+		4EE82BAEF243B77D1DFC5B5D /* WYACore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C062219FA6A08A177F77B4D /* XCLocalSwiftPackageReference "WYACore" */;
+			productName = WYACore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B0B4452F11481FB0681B5F28 /* Project object */;
+}
